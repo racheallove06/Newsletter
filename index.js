@@ -3,5 +3,5 @@ function displayMessage() {
 }
                                                  
 document                   
-  .querySelector("submitButton")                   
+  .querySelector("submitButton")                                             
   .addEventListener("click", displayMessage);
