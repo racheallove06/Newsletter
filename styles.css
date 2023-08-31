@@ -1,8 +1,10 @@
 .container {
-  max-width: 900px;
-  padding: 20px 30px;
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
 }
+
 h1 {
   font-weight: 650;
 }
@@ -23,8 +25,4 @@ ul {
   padding: 5px 8px;
   color: white;
   background: rgb(19, 26, 38);
-}
-
-.float-end {
-  margin-left: 30px;
 }
