@@ -1,10 +1,25 @@
+body {
+  margin-top: 30px;
+  margin-left: 250px;
+  background: #222;
+  box-sizing: border-box;
+
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  width: 800px;
+}
+
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50%;
+  gap: 10px;
+  border-radius: 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background: white;
+  width: 800px;
 }
-
 h1 {
   font-weight: 650;
 }
