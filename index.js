@@ -21,5 +21,5 @@ function displayMessage(event) {
 }
 
 document
-  .querySelector("#submitButton")
+  .querySelector("submitButton")
   .addEventListener("click", displayMessage);
