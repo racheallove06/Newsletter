@@ -80,8 +80,15 @@ ul {
   font-size: 12px;
   font-weight: 700;
   margin-bottom: 10px;
+  position: relative;
+  bottom: -15px;
 }
 
 #success-container {
   display: none;
+}
+
+.text-danger {
+  position: relative;
+  left: 100px;
 }
