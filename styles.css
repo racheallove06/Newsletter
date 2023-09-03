@@ -92,3 +92,11 @@ ul {
   position: relative;
   left: 100px;
 }
+
+.success-container {
+  width: 500px;
+  height: 400px;
+  margin-left: 140px;
+  margin-top: 90px;
+  border-radius: 36px;
+}

@@ -1,5 +1,5 @@
 function displayMessage(event) {
-  event.preventDefault(); // Prevent the form from submitting (page refresh)
+  event.preventDefault(); //
 
   let emailInput = document.querySelector("#email-input").value;
   let errorElement = document.querySelector("#error-message");
@@ -7,12 +7,16 @@ function displayMessage(event) {
   let userEmail = document.querySelector("#userEmail");
   let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
+  let emailInputElement = document.querySelector("#email-input");
   if (emailInput === "") {
     errorElement.textContent = "Valid email required.";
+    emailInputElement.classList.add("error");
   } else if (!emailPattern.test(emailInput)) {
     errorElement.textContent = "Valid email required.";
+    emailInputElement.classList.add("error");
   } else {
-    errorElement.textContent = ""; // Clear any previous error message
+    errorElement.textContent = ""; //
+    emailInputElement.classList.remove("error");
 
     // Hide the entire form container
     document.querySelector("#form-container").style.display = "none";
