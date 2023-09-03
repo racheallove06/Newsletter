@@ -64,7 +64,6 @@ ul {
 
 .email-submit:hover {
   background: linear-gradient(to right, rgb(244, 62, 132), rgb(255, 98, 87));
-  box-shadow: rgba(255, 98, 87, 0.5) 0px 15px 30px;
 }
 .mobile {
   display: none;
@@ -94,9 +93,52 @@ ul {
 }
 
 .success-container {
-  width: 500px;
-  height: 400px;
+  width: 487px;
+  height: 450px;
   margin-left: 140px;
   margin-top: 90px;
   border-radius: 36px;
+  background: white;
+}
+
+.success-img {
+}
+h3 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  color: #242742;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #242742;
+}
+
+#dismiss-button {
+  width: 387px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  appearance: none;
+  border: unset;
+  background-color: rgb(54, 56, 78);
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+#dismiss-button:hover {
+  background: linear-gradient(to right, rgb(244, 62, 132), rgb(255, 98, 87));
+  box-shadow: rgba(255, 98, 87, 0.5) 0px 15px 30px;
 }
