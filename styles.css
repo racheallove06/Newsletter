@@ -1,7 +1,7 @@
 body {
   margin-top: 30px;
   margin-left: 250px;
-
+  background-color: #36384d;
   box-sizing: border-box;
 
   font-family: "Roboto", sans-serif;
@@ -31,17 +31,30 @@ ul {
 }
 
 .email-input {
-  width: 70%;
-  padding: 5px 8px;
+  width: 90%;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(146, 148, 160);
+}
+
+.email-input:hover {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(146, 148, 160);
 }
 
 .email-submit {
-  width: 70%;
-  padding: 5px 8px;
+  width: 90%;
+  background-color: #36384d;
+  padding: 15px;
   color: white;
-  background: rgb(19, 26, 38);
+  transition: 200ms all ease-in-out;
+  border: 1px solid #36384d;
 }
 
+.email-submit:hover {
+  background: linear-gradient(to right, rgb(244, 62, 132), rgb(255, 98, 87));
+  border: 1px solid rgb(255, 98, 87);
+}
 .mobile {
   display: none;
 }
@@ -53,6 +66,9 @@ ul {
 
 .alert {
   margin-left: 10px;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
 #success-container {
