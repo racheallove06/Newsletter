@@ -160,4 +160,7 @@ p {
   .desktop {
     display: none;
   }
+  .containe {
+    flex-direction: column;
+  }
 }
