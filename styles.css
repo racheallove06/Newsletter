@@ -71,7 +71,7 @@ ul {
 
 .desktop {
   width: 300px;
-  margin-right: 20px;
+  margin-left: -20px;
 }
 
 .alert {
@@ -145,22 +145,44 @@ p {
   body {
     padding: 0;
     margin: 0;
+    background: white;
+    max-width: 100%;
+    border: none;
   }
   .container {
-    border-radius: 20px;
-    padding: 0;
-
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     background: white;
     width: 100%;
+    max-width: 600px;
   }
   .mobile {
-    display: block;
-    margin: 0;
+    display: flex;
+    border: none;
+    max-width: 390px;
+
+    justify-content: center;
+    align-items: start;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
   .desktop {
     display: none;
   }
-  .containe {
-    flex-direction: column;
+  .content {
+    max-width: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 250px;
   }
 }
